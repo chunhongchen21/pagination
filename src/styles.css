@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.products-field {
+  display: flex;
+  flex-wrap: wrap; /* 允许换行 */
+  max-width: 2000px; /* 限制每行最大宽度 */
+}
+.products-container {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 300px;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+}
+.active {
+  background-color: aqua;
+}
